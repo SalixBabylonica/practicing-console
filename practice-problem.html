@@ -24,9 +24,17 @@
         //You are given a string and need to remove every other character (including spaces and special characters)
         //You should return the new string 
         
-        // removeEveryOther(`Whats up ${name}? How was your weekend?`)
+        removeEveryOther(`Whats up ${name}? How was your weekend?`)
 
-
+function removeEveryOther(str){
+    //console.log(str)
+    let newStr=str.split('').filter{function (elem,in) {
+     if{in %2 ==0}{
+console.log(elem)
+            return elem
+        }  
+    }).join('')
+}
 
     </script>
 </body>
